@@ -44,8 +44,6 @@ def get_keyword_from_sentence(sentence):
                 word_lemma in entities_name # word is an entity
                )
 
-               
-
                and word.text.lower() not in stop_words # delete stopword
                and word_lemma not in stop_words
 
